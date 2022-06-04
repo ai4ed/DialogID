@@ -7,15 +7,17 @@ The splited training, validation, test sets can be download from [here](), and p
 - `label`: the int number of text, the mapping relation of number to category is following：
 
 ```json
-label_2_category = {"0": "commending",
-                    "1": "guidance",
-                    "2": "summarization",
-                    "3": "greeting",
-                    "4": "note-taking",
-                    "5": "repeating",
-                    "6": "reviewing",
-                    "7": "example-giving",
-                    "8": "others"}
+{
+  "0": "commending",
+  "1": "guidance",
+  "2": "summarization",
+  "3": "greeting",
+  "4": "note-taking",
+  "5": "repeating",
+  "6": "reviewing",
+  "7": "example-giving",
+  "8": "others"
+}
 ```
 
 ## How to training?
