@@ -2,8 +2,8 @@
 This is an official implementation for "DialogID: A Dialogic Instruction Dataset for Improving Teaching Effectiveness in Online Environments".
 
 ## Dataset
-The splited training, validation, test sets can be download from [here](), and put the downloaded files to `data` directory. Each file contains two columns:
-- `text`: the context.
+The splited training, validation, test sets can be found in `data`. Each file contains two columns:
+- `text`:
 - `label`: the int number of text, the mapping relation of number to category is following：
 
 ```json
