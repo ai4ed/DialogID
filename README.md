@@ -1,16 +1,19 @@
 # DialogID
 This is an official implementation for "DialogID: A Dialogic Instruction Dataset for Improving Teaching Effectiveness in Online Environments".
 
-## Dataset
-The splited training, validation, test sets can be found in `data`. Each file contains two columns:
-- `text`:
-- `label`: the int number of text, the mapping relation of number to category is following：
+## Dataset Overview
+
+The dataset is split into training, validation, and test sets, which can be found in the `data` directory. Each file contains two columns:
+- `text`: the text of the sentence
+- `label`: an integer representing the category of the text
+
+The mapping between label numbers and categories is as follows:
 
 ```json
 {
   "0": "commending",
   "1": "guidance",
-  "2": "summarization",
+  "2": "summarization", 
   "3": "greeting",
   "4": "note-taking",
   "5": "repeating",
@@ -19,6 +22,13 @@ The splited training, validation, test sets can be found in `data`. Each file co
   "8": "others"
 }
 ```
+
+### Data Statistics
+
+The statistics of the DialogID dataset are shown in the figure below:
+
+![Dataset Statistics](https://github.com/user-attachments/assets/25531997-1de6-4a4a-a793-06343d7c5be8)
+
 
 ## How to training?
 
