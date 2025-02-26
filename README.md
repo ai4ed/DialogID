@@ -25,7 +25,10 @@ The mapping between label numbers and categories is as follows:
 
 ### Data Statistics
 
-The statistics of the DialogID dataset are shown in the figure below:
+
+The DialogID dataset is constructed from **K-12 online classes** at **TAL Education Group**. Through a rigorous **3-step annotation procedure**, we curated a total of **51,908 annotated samples**, of which **30,431** are identified as effective online dialogic instructions. This dataset provides a rich resource for studying dialogic instruction patterns in educational settings.
+
+The detailed statistics of the DialogID dataset are illustrated in the figure below:
 
 ![Dataset Statistics](https://github.com/user-attachments/assets/25531997-1de6-4a4a-a793-06343d7c5be8)
 
